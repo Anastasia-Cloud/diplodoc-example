@@ -7,13 +7,6 @@ items:
     href: page.md
   - name: Another page 
     href: anotherpage.md
-  - name: openapi
-    include:
-      path: openapi
-      includers:
-        - name: openapi
-          input: petstore-api-draft.yaml
-      mode: link
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml
