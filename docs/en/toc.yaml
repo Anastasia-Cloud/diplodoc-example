@@ -8,7 +8,12 @@ items:
   - name: Another page 
     href: anotherpage.md
   - name: Swagger Petstore API
-    href: swaggerPetstoreAPI.md
+    include:
+      path: Swagger Petstore API
+      includers:
+        - name: Swagger Petstore API
+          input: petstore-api-draft.yaml
+      mode: link
   - name: Sub-Section 
     include:
       path: sub-section/toc.yaml
