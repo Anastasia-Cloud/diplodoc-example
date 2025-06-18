@@ -7,11 +7,11 @@ items:
     href: page.md
   - name: Another page 
     href: anotherpage.md
-  - name: Swagger Petstore API
+  - name: openapi
     include:
-      path: Swagger Petstore API
+      path: openapi
       includers:
-        - name: Swagger Petstore API
+        - name: openapi
           input: petstore-api-draft.yaml
       mode: link
   - name: Sub-Section 
