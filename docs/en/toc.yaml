@@ -8,11 +8,11 @@ items:
   - name: Another page 
     href: anotherpage.md
   - name: Sub-Section 
-  - name: openapi
+  - name: petstore-api-draft
     include:
-      path: openapi
+      path: petstore-api-draft
       includers:
-        - name: openapi
+        - name: petstore-api-draft
           input: petstore-api-draft.yaml
       mode: link
     include:
